@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tab_text_normal">#696969</color>
+    <color name="tab_text_selected">#73bf40</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="button_bg">#00A6ff</color>
+    <color name="button_bg2">#3200A6ff</color>
+    <color name="tab_text_normalt">#222222</color>
+    <color name="indecate_selete">#00A6ff</color>
+    <color name="indecate_unselete">#ffffff</color>
+    <color name="search_text_hint_color">#999999</color>
+
+    <color name="defaultTextColor">#FFFFFF</color>
+    <color name="errorColor">#D50000</color>
+    <color name="infoColor">#3F51B5</color>
+    <color name="successColor">#388E3C</color>
+    <color name="warningColor">#FFA900</color>
+    <color name="normalColor">#353A3E</color>
+    <color name="light_gray">#fff5f5f5</color>
+    <color name="bg_gray">#f4f4f4</color>
+    <color name="bg_gray2">#aaaaaa</color>
+</resources>

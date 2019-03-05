@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TabView">
+        <attr name="tabView" format="reference"/>
+        <attr name="iconWidth" format="dimension"/>
+        <attr name="iconHeight" format="dimension"/>
+        <attr name="iconPadding" format="dimension"/>
+        <attr name="tab_textSize" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="tabViewAlone">
+        <attr name="tabViewAlone_UpDraw" format="reference"/>
+        <attr name="tabViewAlone_iconPadding" format="dimension"/>
+        <attr name="tabViewAlone_iconWidth" format="dimension"/>
+        <attr name="tabViewAlone_iconHeight" format="dimension"/>
+        <attr name="tabViewAlone_tab_textSize" format="dimension"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="change_icon" format="reference" />
+        <attr name="change_color" format="color" />
+        <attr name="change_text" format="string" />
+        <attr name="change_text_size" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TabView_xml">
+        <attr name="xml_iconWidth" format="dimension"/>
+        <attr name="xml_iconHeight" format="dimension"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="searchEdit">
+        <attr name="searchIcon" format="reference"/>
+        <attr name="deleteIcon" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="edit_line">
+        <attr name="edit_lineColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="imagetext">
+        <attr name="imgT_text" format="string" />
+        <attr name="imgT_img" format="reference" />
+        <attr name="imgT_top" format="dimension"></attr>
+
+        <attr name="imgT_size" format="dimension"></attr>
+        <attr name="imgT_height" format="dimension"></attr>
+        <attr name="imgT_width" format="dimension"></attr>
+        <attr name="imgT_color" format="color"></attr>
+
+    </declare-styleable>
+    <declare-styleable name="SearchEditText">
+        <attr name="drawableDel" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RatingView">
+        <!--正常状态下的资源-->
+        <attr name="starNormal" format="reference"/>
+        <!--选中状态资源-->
+        <attr name="starSelected" format="reference"/>
+        <!--星星数量-->
+        <attr name="starNumbers" format="integer"/>
+        <!--星星之间的间距-->
+        <attr name="starSpace" format="dimension"/>
+    </declare-styleable>
+	
+	<attr name="popupTextAlignment" format="enum">
+        <enum name="start" value="0"/>
+        <enum name="end" value="1"/>
+        <enum name="center" value="2"/>
+    </attr>
+
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="arrowDrawable" format="reference|color"/>
+        <attr name="dropDownListPaddingBottom" format="dimension"/>
+        <attr name="backgroundSelector" format="integer"/>
+        <attr name="textTint" format="color"/>
+        <attr name="popupTextAlignment"/>
+    </declare-styleable>
+</resources>

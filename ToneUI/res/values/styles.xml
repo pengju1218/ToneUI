@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.IndicatorDefault" parent="android:Theme">
+        <item name="tabView">@style/TabView</item>
+    </style>
+
+    <style name="TabView">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+        <item name="android:textSize">12sp</item>
+        <item name="iconWidth">27dp</item>
+        <item name="iconHeight">27dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">2dp</item>
+    </style>
+
+
+    <style name="TabViewAloneStyle_Alone">
+        <item name="android:gravity">bottom|center_horizontal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/tab_text_selector</item>
+        <item name="android:textSize">12sp</item>
+        <item name="iconWidth">27dp</item>
+        <item name="iconHeight">27dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:colorControlHighlight">#000000</item> -->
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:selectableItemBackgroundBorderless">@null</item>
+        <item name="android:stateListAnimator">@null</item>
+
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/seabar_input</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:drawableStart">@drawable/search</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:hint">搜索</item>
+    </style>
+    ---------------------
+
+</resources>
